@@ -1,0 +1,121 @@
+/* try flex tomorrow */
+
+body {
+  font-size: 16px;
+}
+
+.container {
+  border: 2px solid transparent;
+  margin: 2rem 2rem 2rem 2rem;
+  height: 31.4rem;
+  width: 45rem;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px 2px #98a6bd;
+}
+
+.header {
+  height: 14rem;
+  text-align: left;
+  margin: 2rem;
+}
+
+.header h4 {
+  font-weight: 700;
+  color: #2ab2b0;
+}
+
+.header .first {
+  color: #c0df34;
+  font-size: 20px;
+}
+
+.header p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #a3a5aa;
+  margin-top: -1rem;
+}
+
+.both {
+  position: relative;
+}
+
+.left {
+  width: 49.3%;
+  border: 2px solid transparent;
+  position: absolute;
+  left: -2px;
+  height: 18.4rem;
+  text-align: left;
+  top: -3.5rem;
+  background: #2ab2b0;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.left h5 {
+  margin: 2rem;
+  font-size: 18px;
+}
+
+.left .one {
+  margin-left: 2rem;
+  font-weight: 400;
+}
+
+.left .two {
+  margin-left: 0.8rem;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.left p {
+  margin-left: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  margin-bottom: 3rem;
+  opacity: 0.69;
+}
+
+.left button {
+  margin-left: 2rem;
+  margin-top: -4rem;
+  border-radius: 0.5rem;
+  background: #c0df34;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  width: 73%;
+  height: 18%;
+  box-shadow: 0px 2px 2px 2px #6ababa;
+}
+
+.right {
+  width: 50.3%;
+  border: 2px solid transparent;
+  position: absolute;
+  right: -2px;
+  height: 18.4rem;
+  top: -3.5rem;
+  background: #6ababa;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.right h5 {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.right p {
+  margin-left: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.8rem;
+  margin-top: -1.8rem;
+  opacity: 0.48;
+}

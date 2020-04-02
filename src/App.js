@@ -1,12 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import logo from "./logo.svg";
+import "./App.css";
+
+import { Route } from "react-router-dom";
+import Index from "./1-single-price-grid-component/Index";
+import IndexMobile from "./1-single-price-grid-component/IndexMobile";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -17,7 +21,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
+        {/* <div src={grid}></div> */}
+        {/* <iframe src={grid}></iframe> */}
+        <Route exact path="/grid-desktop" component={Index} />
+        <Route exact path="/grid-mobile" component={IndexMobile} />
       </header>
     </div>
   );

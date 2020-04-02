@@ -1,0 +1,116 @@
+body {
+  font-size: 16px;
+}
+
+.containerMobile {
+  margin: 2rem 2rem 2rem 2rem;
+  height: 90vh;
+  width: 375px;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px 2px #98a6bd;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerMobile {
+  height: 16rem;
+  text-align: left;
+  margin: 2rem;
+}
+
+.headerMobile h4 {
+  font-weight: 700;
+  color: #2ab2b0;
+  font-size: 24px;
+}
+
+.headerMobile .first {
+  color: #c0df34;
+  font-size: 20px;
+}
+
+.headerMobile p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8rem;
+  color: #a3a5aa;
+  margin-top: 0rem;
+}
+
+.leftMobile {
+  width: 372px;
+  border: 2px solid transparent;
+  position: absolute;
+  height: 18.4rem;
+  text-align: left;
+  top: 24rem;
+  background: #2ab2b0;
+}
+
+.leftMobile h5 {
+  margin: 2rem;
+  font-size: 18px;
+}
+
+.leftMobile .one {
+  margin-left: 2rem;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.leftMobile .two {
+  margin-left: 0.8rem;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.leftMobile p {
+  margin-left: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  margin-bottom: 3rem;
+  opacity: 0.69;
+}
+
+.leftMobile button {
+  margin-left: 2rem;
+  margin-top: -4rem;
+  border-radius: 0.5rem;
+  background: #c0df34;
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  width: 80%;
+  height: 18%;
+  box-shadow: 0px 2px 2px 2px #6ababa;
+}
+
+.rightMobile {
+  width: 373px;
+  border: 2px solid transparent;
+  position: absolute;
+  height: 18.4rem;
+  top: 42rem;
+  background: #6bbcbc;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+.rightMobile h5 {
+  text-align: justify;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.rightMobile p {
+  margin-left: 2rem;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.8rem;
+  margin-top: -1.8rem;
+  opacity: 0.48;
+}
