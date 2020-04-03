@@ -7,12 +7,6 @@ body {
   /* font-family: "Karla"; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Karla";
-}
-
-@font-face {
-  font-family: "Karla";
-  src: local("Karla"), url(./Karla/Karla-Bold.ttf) format("truetype");
 }
 
 /* code {

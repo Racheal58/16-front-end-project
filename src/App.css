@@ -14,9 +14,9 @@
 }
 
 .App-header {
-  background-color: #e5eff5;
+  /* background-color: #e5eff5;
   height: 100rem;
-  margin-top: -19.8rem;
+  margin-top: -19.8rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
