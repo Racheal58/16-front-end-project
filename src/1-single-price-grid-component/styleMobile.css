@@ -1,10 +1,20 @@
-body {
-  font-size: 16px;
+@font-face {
+  font-family: "Karla";
+  src: local("Karla"), url(./Karla/Karla-Bold.ttf) format("truetype");
+}
+
+.wrapperMobile {
+  background: #e5eff5;
+  width: 105rem;
+  height: 106vh;
+  display: flex;
+  justify-content: center;
+  font-family: "Karla";
 }
 
 .containerMobile {
   margin: 2rem 2rem 2rem 2rem;
-  height: 90vh;
+  height: 88%;
   width: 375px;
   border-radius: 0.5rem;
   background: #ffffff;
@@ -14,7 +24,6 @@ body {
 }
 
 .headerMobile {
-  height: 16rem;
   text-align: left;
   margin: 2rem;
 }
@@ -23,11 +32,14 @@ body {
   font-weight: 700;
   color: #2ab2b0;
   font-size: 24px;
+  margin-left: 1rem;
+  margin-top: 0.1rem;
 }
 
 .headerMobile .first {
   color: #c0df34;
   font-size: 20px;
+  margin-left: 1rem;
 }
 
 .headerMobile p {
@@ -35,7 +47,8 @@ body {
   font-weight: 400;
   line-height: 1.8rem;
   color: #a3a5aa;
-  margin-top: 0rem;
+  margin-top: -0.8rem;
+  margin-left: 1rem;
 }
 
 .leftMobile {
@@ -44,7 +57,7 @@ body {
   position: absolute;
   height: 18.4rem;
   text-align: left;
-  top: 24rem;
+  top: 22rem;
   background: #2ab2b0;
 }
 
@@ -89,11 +102,11 @@ body {
 }
 
 .rightMobile {
-  width: 373px;
+  width: 372px;
   border: 2px solid transparent;
   position: absolute;
   height: 18.4rem;
-  top: 42rem;
+  top: 40.6rem;
   background: #6bbcbc;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;

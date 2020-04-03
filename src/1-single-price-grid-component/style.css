@@ -1,12 +1,23 @@
 /* try flex tomorrow */
 
-body {
-  font-size: 16px;
+@font-face {
+  font-family: "Karla";
+  src: local("Karla"), url(./Karla/Karla-Bold.ttf) format("truetype");
+}
+
+.wrapper {
+  background: #e5eff5;
+  width: 105rem;
+  height: 100rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Karla";
 }
 
 .container {
+  margin-bottom: -19.8rem;
   border: 2px solid transparent;
-  margin: 2rem 2rem 2rem 2rem;
+  margin: 10rem 2rem 2rem 2rem;
   height: 31.4rem;
   width: 45rem;
   border-radius: 0.5rem;
@@ -23,6 +34,7 @@ body {
 .header h4 {
   font-weight: 700;
   color: #2ab2b0;
+  margin: 2rem;
 }
 
 .header .first {
