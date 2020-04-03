@@ -1,0 +1,147 @@
+/* try making it responsive */
+
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url(./Poppins/Poppins-Regular.ttf) format("truetype");
+}
+
+.wrapperFour {
+  background-color: #fafafa;
+  font-family: "Poppins";
+  width: 105rem;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.containerFour {
+  position: relative;
+}
+
+.containerFour .headerOne {
+  text-align: center;
+  margin-top: 3rem;
+  color: #505164;
+  font-size: 29px;
+  font-weight: 200;
+  opacity: 0.6;
+}
+
+.containerFour .headerTwo {
+  text-align: center;
+  color: #505164;
+  margin-top: -1.2rem;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.containerFour .headerText {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 0rem;
+  color: #505164;
+  opacity: 0.5;
+}
+
+.team {
+  border-top: 4px solid #ea5353;
+  height: 16rem;
+  width: 23rem;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px 2px #f1f3f8;
+  position: absolute;
+  top: 16rem;
+  left: 4rem;
+  color: #505164;
+}
+
+.team,
+h3,
+p {
+  margin: 2rem;
+}
+
+.team p {
+  margin-top: -1rem;
+  opacity: 0.5;
+}
+
+.houseImage {
+  position: relative;
+  left: 17rem;
+}
+
+.karma {
+  border-top: 4px solid #fcaf4a;
+  height: 16rem;
+  width: 23rem;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px 2px #f1f3f8;
+  position: absolute;
+  top: 35rem;
+  left: 4rem;
+  color: #505164;
+}
+
+.karma,
+h3,
+p {
+  margin: 2rem;
+}
+
+.karma p {
+  margin-top: -1rem;
+  opacity: 0.5;
+}
+
+.supervisor {
+  border-top: 4px solid #45d3d3;
+  height: 16rem;
+  width: 23rem;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 10px 2px #f1f3f8;
+  position: absolute;
+  top: 24.9rem;
+  right: 28.8rem;
+  color: #505164;
+}
+
+.supervisor,
+h3,
+p {
+  margin: 2rem;
+}
+
+.supervisor p {
+  margin-top: -1rem;
+  opacity: 0.5;
+}
+
+.calculator {
+  border-top: 4px solid #549ef2;
+  height: 16rem;
+  width: 23rem;
+  border-radius: 0.5rem;
+  background: #ffffff;
+  box-shadow: 0px 8px 10px 2px #f1f3f8;
+  position: absolute;
+  top: 25.3rem;
+  left: 28.6rem;
+  color: #505164;
+}
+
+.calculator,
+h3,
+p {
+  margin: 2rem;
+}
+
+.calculator p {
+  margin-top: -1rem;
+  opacity: 0.5;
+}
