@@ -5,12 +5,14 @@ import "./App.css";
 import { Route } from "react-router-dom";
 import Index from "./1-single-price-grid-component/Index";
 import IndexMobile from "./1-single-price-grid-component/IndexMobile";
+import FourIndex from "./2-four-card-feature-section/FourIndex";
+import FourMobile from "./2-four-card-feature-section/FourMobile";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" />
+    // <div className="App">
+    <header className="App-header">
+      {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -22,12 +24,14 @@ function App() {
         >
           Learn React
         </a> */}
-        {/* <div src={grid}></div> */}
-        {/* <iframe src={grid}></iframe> */}
-        <Route exact path="/grid-desktop" component={Index} />
-        <Route exact path="/grid-mobile" component={IndexMobile} />
-      </header>
-    </div>
+      {/* <div src={grid}></div> */}
+      {/* <iframe src={grid}></iframe> */}
+      <Route exact path="/grid-desktop" component={Index} />
+      <Route exact path="/grid-mobile" component={IndexMobile} />
+      <Route exact path="/four-desktop" component={FourIndex} />
+      <Route exact path="/four-mobile" component={FourMobile} />
+    </header>
+    // </div>
   );
 }
 
